@@ -68,7 +68,7 @@ functionalities to users based on their roles.
 
 ### Signup Page
 
-![Signup Page](./Screenshots/screenshots/signup.png)
+![Signup Page](./Screenshots/signup.png)
 
 ### Admin Dashboard
 
