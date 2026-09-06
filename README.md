@@ -212,6 +212,7 @@ User ───────< Ratings >─────── Store
 
 ## Project Structure
 
+```text
 Store Rating Management System
 │
 ├── backend
@@ -243,9 +244,9 @@ Store Rating Management System
 │   │   ├── services
 │   │   ├── App.jsx
 │   │   ├── main.jsx
-│   │   ├── index.html
 │   │   └── index.css
 │   │
+│   ├── index.html
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -254,6 +255,7 @@ Store Rating Management System
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
