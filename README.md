@@ -9,9 +9,9 @@ This project was developed as a Full Stack Developer coding challenge.
 
 ## Developer
 
-**Prachi Mane**
+**Prachi Suryakant Mane**
 
-MCA Student | Full Stack Developer
+MCA Student 
 
 ---
 
@@ -126,5 +126,251 @@ Store owners can:
 
 Users can submit ratings between:
 
-```text
 1 to 5
+Users can also modify their previously submitted rating.
+
+---
+
+## Admin Dashboard
+
+The Admin Dashboard provides an overview of the entire system.
+
+It includes:
+
+- Total number of users
+- Total number of stores
+- Total number of ratings
+- User management
+- Store management
+- Add new users
+- Add new stores
+- Search and filtering
+- Ascending and descending sorting
+
+---
+
+## Store Search & Filtering
+
+Users and administrators can easily find records using search and filters.
+
+---
+
+### User Filters
+
+- Name
+- Email
+- Address
+- Role
+
+---
+
+### Store Filters
+
+- Store Name
+- Email
+- Address
+
+Records can also be sorted in:
+
+- Ascending order
+- Descending order
+
+---
+
+## Security
+
+The application implements several security practices:
+
+- JWT authentication
+- Role-based access control
+- Password hashing using bcrypt
+- Protected API routes
+- Input validation
+- Environment variables for sensitive configuration
+- Unique email validation
+- Unique user-store rating constraint
+
+---
+
+## Database Design
+
+The application uses MySQL as the database.
+
+---
+
+### Main Tables
+
+Relationships
+User ───────< Ratings >─────── Store
+
+- One user can rate multiple stores.
+- One store can receive ratings from multiple users.
+- A user can submit only one rating for a particular store.
+- Users, stores, and ratings are connected using foreign keys.
+
+---
+
+## Project Structure
+
+Store Rating Management System
+│
+├── backend
+│   ├── config
+│   │   └── db.js
+│   │
+│   ├── controllers
+│   │   ├── authController.js
+│   │   ├── adminController.js
+│   │   ├── storeController.js
+│   │   └── ratingController.js
+│   │
+│   ├── middleware
+│   │   └── authMiddleware.js
+│   │
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   ├── adminRoutes.js
+│   │   ├── storeRoutes.js
+│   │   └── ratingRoutes.js
+│   │
+│   ├── package.json
+│   └── server.js
+│
+├── frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── services
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── index.html
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── database
+│   └── schema.sql
+│
+├── .gitignore
+└── README.md
+
+---
+
+## Installation & Setup
+
+1. Clone the Repository-
+
+git clone https://github.com/psmane02/Store-Rating-Management-System.git
+
+2. Open the Project-
+
+cd Store-Rating-Management-System
+
+---
+
+## Database Setup
+
+- Open MySQL or phpMyAdmin.
+- Run the SQL file:
+
+  database/schema.sql
+
+- This will create the required database and tables.
+
+---
+
+## Backend Setup
+
+- Open a terminal inside the backend folder:
+  cd backend
+
+- Install dependencies:
+  npm install
+
+- Create a .env file:
+    PORT=5000
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASSWORD=your_mysql_password
+    DB_NAME=roxiler_store_rating
+    JWT_SECRET=your_jwt_secret
+
+- Start the backend:
+    node server.js
+
+- The backend will run on:
+    http://localhost:5000
+
+---
+
+## Frontend Setup
+
+- Open another terminal:
+    cd frontend
+
+- Install dependencies:
+    npm install
+
+- Start the React application:
+    npm run dev
+
+- The frontend will run on the Vite development server.
+
+---
+
+## API Health Check
+
+- After starting the backend, open:
+    http://localhost:5000/api/health
+
+- A successful response should indicate that the database is connected.
+
+---
+
+## Default Roles
+
+- The application supports three roles:
+Role                Access
+ADMIN - Manage users, stores and system data
+USER - View stores and submit ratings
+OWNER - View own store and customer ratings
+
+---
+
+## Important Note
+
+- The .env file contains sensitive configuration and is excluded from GitHub using .gitignore.
+
+- Do not upload passwords, secret keys, or other sensitive credentials to GitHub.
+
+---
+
+## Project Objective
+
+The main objective of this project is to demonstrate practical knowledge of:
+    - React.js
+    - Node.js
+    - Express.js
+    - MySQL
+    - REST APIs
+    - JWT Authentication
+    - Role-Based Authorization
+    - CRUD Operations
+    - Database Relationships
+    - Form Validation
+    - Responsive UI Development
+
+---
+
+## Developer
+
+Prachi Suryakant Mane
+MCA Student
+GitHub: psmane02
+
+---
+
+## Project
+
+- This project was developed as part of the Roxiler Systems Pvt Ltd Full Stack Developer – Trainee Coding Challenge.
