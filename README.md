@@ -64,7 +64,7 @@ functionalities to users based on their roles.
 
 ### Login Page
 
-![Login Page](./screenshots/login.png)
+![Login Page](./Screenshots/login.png)
 
 ### Signup Page
 
@@ -72,39 +72,39 @@ functionalities to users based on their roles.
 
 ### Admin Dashboard
 
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+![Admin Dashboard](./Screenshots/admin-dashboard.png)
 
 ### User Dashboard within the admin panel
 
-![User Dashboard](./screenshots/user-dashboard.png)
+![User Dashboard](./Screenshots/user-dashboard.png)
 
 ### Store Listing & Rating within the admin panel
 
-![Store Listing](./screenshots/store-dashboard.png)
+![Store Listing](./Screenshots/store-dashboard.png)
 
 ### Add Users within the admin panel
 
-![Store Listing](./screenshots/add-user.png)
+![Store Listing](./Screenshots/add-user.png)
 
 ### Add Stores within the admin panel
 
-![Store Listing](./screenshots/add-store.png)
+![Store Listing](./Screenshots/add-store.png)
 
 ### Change Password
 
-![Change Password](./screenshots/change-password.png)
+![Change Password](./Screenshots/change-password.png)
 
 ### Owner Dashboard
 
-![Owner Dashboard](./screenshots/owner-dashboard.png)
+![Owner Dashboard](./Screenshots/owner-dashboard.png)
 
 ### The image below the Owner Dashboard
 
-![Owner Dashboard](./screenshots/owner-dashboard2.png)
+![Owner Dashboard](./Screenshots/owner-dashboard2.png)
 
 ### User Dashboard
 
-![User Dashboard](./screenshots/user-dashboard-og.png)
+![User Dashboard](./Screenshots/user-dashboard-og.png)
 
 ---
 
@@ -114,19 +114,19 @@ functionalities to users based on their roles.
 
 ### Database Structure
 
-![Database Structure](./screenshots/database-structure.png)
+![Database Structure](./Screenshots/database-structure.png)
 
 ### Users Table
 
-![Users Table](./screenshots/users.png)
+![Users Table](./Screenshots/users.png)
 
 ### Stores Table
 
-![Stores Table](./screenshots/stores.png)
+![Stores Table](./Screenshots/stores.png)
 
 ### Ratings Table
 
-![Ratings Table](./screenshots/ratings.png)
+![Ratings Table](./Screenshots/ratings.png)
 
 ---
 
